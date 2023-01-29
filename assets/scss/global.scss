@@ -1,6 +1,41 @@
 
 @import "./variables.scss";
+@import "./grid.sass";
 
-// h1 {
-//     color: $primary;
-// }
+
+.w-50 {
+    width: 50% !important
+}
+.w-55 {
+    width: 55% !important
+}
+.w-40 {
+    width: 40% !important
+}
+.w-60 {
+    width: 60% !important
+}
+.w-75 {
+    width: 75% !important
+}
+
+.w-100 {
+    width: 100% !important
+}
+.h-100vh {
+    height: 100vh;
+}
+.h-full {
+    height: 100%;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #F4F6F9;
+    scroll-behavior: smooth;
+
+    [dir=rtl] {
+        text-align: right;
+    }
+}
