@@ -1,27 +1,31 @@
 <script setup>
-import Login from "@/assets/images/login.vue";
+import LoginIcon from "~~/assets/images/LoginIcon.vue";
 </script>
 
 <template>
-  <div class="container">
+  <div class="auth-container">
     <div class="box bg-white d-flex">
-      <div class="w-60 d-flex justify-content-between align-items-center">
-        <Login />
+      <div class="w-60 d-flex justify-content-center align-items-center">
+        <div>
+          <LoginIcon />
+        </div>
       </div>
-      <div class="w-40 bg-neutral-2 h-full">
-        Form
+      <div class="w-40 bg-neutral-2">
         <slot />
       </div>
     </div>
   </div>
 </template>
 
-<style lang="scss" scoped>
-.container {
+<style lang="scss">
+.auth-container {
   margin: 10vh auto;
   .box {
+    border-radius: 23px;
+    border: 1px solid transparent;
+    overflow: hidden;
     max-width: 1280px;
-    // background-color: rgb(186, 220, 255);
+    margin: auto;
     min-height: 80vh;
   }
 }

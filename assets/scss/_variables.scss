@@ -1,5 +1,5 @@
 
-$primary:  #003B73;
+$primary:  #0071f2;
 $primary-light: #BFD7ED;
 $neutral-1: #DADEE3;
 $neutral-2: #EBEEF2;
@@ -43,10 +43,17 @@ $black: #fff;
 
 
 .bg-error {
-    background-color: $error;
+    background-color: rgba($error, 0.1);
 }
 .text-error {
+    color: $error ;
+}
+
+.error-varient {
+    background-color: rgba($error, 0.1);
     color: $error;
+    border: 1px solid rgba($error, 0.4);
+    border-radius: 8px;
 }
 
 .bg-gray {

@@ -1,6 +1,6 @@
 <template>
-    <div>
-        DEFAULT LAUOUT
-        <slot />
-    </div>
+  <div>
+    DEFAULT LAUOUTkjkljlk
+    <slot />
+  </div>
 </template>
